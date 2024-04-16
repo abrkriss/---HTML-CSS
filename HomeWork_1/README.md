@@ -1,5 +1,5 @@
 # Worshop.1.html
-This is the repositoryfor homework from geekbrains's course about html & css
+
 
 # HOMEWORK 1 
 Домашнее задание

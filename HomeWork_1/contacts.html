@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contacts</title>
 </head>
 <body>
-    <ol>
-        <li><a href="./index.html">Main</a></li>
-        <li><a href="./catalog/catalog.html">Catalog</a></li>
-        <li><a href="#">Contacts</a></li>
-        <h1>Contacts</h1>
-        <h4>If you want to see something new in our shop let's write us</h4>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Сообщение:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Отправить</button>
-        </form>
+    <ol class="link_style">
+        <li><a class="link_style" href="./index.html">Main</a></li>
+        <li><a class="link_style" href="./catalog/catalog.html">Catalog</a></li>
+        <li><a class="link_style" href="#">Contacts</a></li>
     </ol>
+        <h1 class="title_style" >Contacts</h1>
+        <h2 class="subtitle_style">If you want to see something new in our shop let's write us</h2>
+    <form>
+        <label class="text_style" for="name">Name:</label>
+        <input class="input_text" type="text" id="name" name="name" required>
+        <br>
+        <label class="text_style" for="email">Email:</label>
+        <input class="input_text" type="email" id="email" name="email" required>
+        <label class="text_style" for="message">Сообщение:</label>
+        <textarea class="message" id="message" name="message" required></textarea>
+        <button class="button_style" type="submit">Отправить</button>
+    </form>
 </body>
 </html>

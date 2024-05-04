@@ -1,29 +1,118 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
-.header
-{
-    padding: 32px;
+.header {
+	padding-top: 10px 0;
+    margin-top: 40px;
+	padding-bottom: 84px;
 }
-body{
-    scroll-behavior: smooth;
-    background: rgb(255, 255, 255);
+body {
+	scroll-behavior: smooth;
+	background: rgb(255, 255, 255);
 }
-
 img {
-    display: block;
-    max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
-h1, a, p, button{
-    color: rgb(0, 0, 0);
-    font-family: "Inter", sans-serif;
+h1,
+a,
+p,
+button {
+	color: rgb(0, 0, 0);
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
 }
 
-.container{
-    max-width: 1174px;
-    margin: 0 auto;
+.container {
+	max-width: 1174px;
+	margin: 0 auto;
+}
+.navigation {
+}
+
+.navigation a {
+	font-size: 14px;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+.navigation .colorfulLink {
+	color: rgb(242, 88, 34);
+}
+
+.dropDown {
+	overflow: hidden;
+	float: left;
+}
+.dropDown .dropbtn {
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	margin: 0;
+}
+
+.dropDownContent {
+	display: none;
+	position: absolute;
+	background:none;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropDown:hover .dropDownContent {
+	display: block;
+}
+
+.main {
+	margin-bottom: 100px;
+}
+
+.mainContent {
+}
+
+.mainCotent__leftSide h1 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 20px;
+}
+.mainCotent__leftSide p {
+	color: rgb(136, 136, 136);
+	font-size: 20px;
+	line-height: 140%;
+	margin-bottom: 32px;
+}
+
+.footer {
+	margin-bottom: 100px;
+}
+
+.logos {
+}
+
+.mainContent__leftSide-btnList {
+}
+
+.mainContent__leftSide-btnList button {
+	padding: 16px 10px;
+	border-radius: 56px;
+	background: rgb(242, 88, 34);
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+}
+
+.mainContent__leftSide-btnList .buttonWithoutColor {
+	background: none;
+	color: rgb(170, 170, 170);
+	box-shadow: none;
 }

@@ -5,9 +5,13 @@
 	text-decoration: none;
 }
 .header {
-	padding-top: 10px 0;
-    margin-top: 40px;
-	padding-bottom: 84px;
+	margin-top: 40px;
+	margin-bottom: 84px;
+}
+.logoinhead {
+	flex: none;
+	flex-grow: 0;
+	margin: 0px 460px 0px 0px;
 }
 body {
 	scroll-behavior: smooth;
@@ -31,42 +35,19 @@ button {
 	margin: 0 auto;
 }
 .navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .navigation a {
-	font-size: 14px;
-	float: left;
-	text-align: center;
+	flex: none;
+    font-size: 14px;
 	padding: 10px;
 }
+
 .navigation .colorfulLink {
 	color: rgb(242, 88, 34);
-}
-
-.dropDown {
-	overflow: hidden;
-	float: left;
-}
-.dropDown .dropbtn {
-	font-size: 14px;
-	padding: 10px;
-	border: none;
-	outline: none;
-	background-color: inherit;
-	margin: 0;
-}
-
-.dropDownContent {
-	display: none;
-	position: absolute;
-	background:none;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
-}
-
-.dropDown:hover .dropDownContent {
-	display: block;
 }
 
 .main {
@@ -74,6 +55,8 @@ button {
 }
 
 .mainContent {
+	display: flex;
+	justify-content: start;
 }
 
 .mainCotent__leftSide h1 {
@@ -81,8 +64,10 @@ button {
 	font-weight: 700;
 	line-height: 120%;
 	margin-bottom: 20px;
+	margin-right: 73px;
 }
 .mainCotent__leftSide p {
+	margin-right: 73px;
 	color: rgb(136, 136, 136);
 	font-size: 20px;
 	line-height: 140%;
@@ -90,16 +75,21 @@ button {
 }
 
 .footer {
+	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
 .logos {
+	display: flex;
+	justify-content: space-between;
 }
 
 .mainContent__leftSide-btnList {
 }
 
 .mainContent__leftSide-btnList button {
+	width: 140px;
+height: 51px;
 	padding: 16px 10px;
 	border-radius: 56px;
 	background: rgb(242, 88, 34);
@@ -109,10 +99,13 @@ button {
 	font-weight: 600;
 	border: none;
 	cursor: pointer;
+	margin-top: 32px;
+
 }
 
 .mainContent__leftSide-btnList .buttonWithoutColor {
 	background: none;
 	color: rgb(170, 170, 170);
 	box-shadow: none;
+	margin-left: 42px;
 }

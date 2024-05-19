@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.header {
+	margin-top: 40px;
+	margin-bottom: 84px;
+}
+.logoinhead {
+	flex: none;
+	flex-grow: 0;
+	margin: 0px 460px 0px 0px;
+}
+body {
+	scroll-behavior: smooth;
+	background: rgb(255, 255, 255);
+	font-family: "Inter", sans-serif;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+h1,
+a,
+p,
+button {
+	color: rgb(0, 0, 0);
+	font-weight: 400;
+}
+
+.container {
+	max-width: 1174px;
+	margin: 0 auto;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation a {
+	flex: none;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.navigation .colorfulLink {
+	color: rgb(242, 88, 34);
+}
+
+.main {
+	margin-bottom: 100px;
+}
+
+.mainContent {
+	display: flex;
+	justify-content: start;
+}
+
+.mainCotent__leftSide h1 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 20px;
+	margin-right: 73px;
+}
+.mainCotent__leftSide p {
+	margin-right: 73px;
+	color: rgb(136, 136, 136);
+	font-size: 20px;
+	line-height: 140%;
+	margin-bottom: 32px;
+}
+
+.footer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mainContent__leftSide-btnList {
+}
+
+.mainContent__leftSide-btnList button {
+	width: 140px;
+	height: 51px;
+	padding: 16px 10px;
+	border-radius: 56px;
+	background: rgb(242, 88, 34);
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	margin-top: 32px;
+}
+
+.mainContent__leftSide-btnList .buttonWithoutColor {
+	background: none;
+	color: rgb(170, 170, 170);
+	box-shadow: none;
+	margin-left: 42px;
+}
+.FEATURES{
+	display: grid;
+	grid-template-columns: 310px 378px 310px;
+	gap: 61px;
+	min-height: 230px;
+}
+.item{
+	margin: 100px auto;
+}
+.item p{
+	padding-top: 18px;
+	color: rgb(102, 102, 102);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+.item2{
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+.feautures_title{
+	margin: 25px auto;
+}
+.featur_btn{
+	border: none;
+	background: none;
+	box-shadow: none;
+	color: rgb(0, 0, 0);
+font-family: Inter;
+font-weight: 600;
+}
+.SERVICES_sections{
+	display: grid;
+	grid-template-columns: 378px 378px 378px;
+	gap: 20px;
+}

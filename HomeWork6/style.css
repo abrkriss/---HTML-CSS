@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+	padding: 0;
+	text-decoration: none;  
+}
+header{
+    min-width: 1600px;
+    min-height: 75px;
+    background: rgb(34, 34, 34);
+}

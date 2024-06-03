@@ -1,10 +1,40 @@
 *{
     margin: 0;
 	padding: 0;
-	text-decoration: none;  
+	text-decoration: none;
 }
 header{
     min-width: 1600px;
-    min-height: 75px;
+    max-height: 75px;
     background: rgb(34, 34, 34);
+}
+.liftside{
+    display: flex;
+    justify-content: start;
+    padding-left: 230px;
+}
+.liftside .item1{
+    padding-right: 41px;
+}
+.rightside{
+    display: flex;
+    justify-content: end;
+}
+.rightside .item3 {
+    padding-right: 30px;
+}
+.rightside .item4 {
+    padding-right: 30px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    display: grid;
+    background: rgb(241, 228, 230);
+}
+.main{
+    display: flex;
 }

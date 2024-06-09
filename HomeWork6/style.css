@@ -11,7 +11,7 @@
 	max-height: 75px;
 	background: rgb(34, 34, 34);
 }
-.headerlogo {
+.headerLogo {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -36,21 +36,29 @@ body {
 	font-family: "Lato";
 	background: rgb(248, 248, 248);
 }
+body p{
+	font-style: 14px;
+}
 
 .mainContent {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	background: rgb(241, 228, 230);
 }
-.mainCotent__leftSide {
+
+.textColorful {
+	color: rgb(241, 109, 127);
 }
-.mainCotent__rigthSide {
+.mainContent__rigthSide {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	flex-direction: row;
 	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+}
+.textMain {
+	padding-left: 16px;
 }
 
 img {
@@ -63,8 +71,29 @@ img {
 	max-width: 1140px;
 }
 
+.picmenu h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+}
 .pictureMenu {
-	margin-top: 65px;
+	margin-top: 35px;
+}
+
+.picmenu {
+	position: relative;
+}
+.picmenu h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.pickMenuTextColor {
+	font-size: 24px;
+	font-weight: 700;
+	color: rgb(241, 109, 127);
 }
 .blokForThree {
 	display: grid;
@@ -74,7 +103,7 @@ img {
 .blokForOne {
 	display: grid;
 	grid-template-columns: 100%;
-	margin-top: 30px;
+	padding-top: 30px;
 }
 .productContent {
 	padding-top: 96px;
@@ -84,6 +113,12 @@ img {
 }
 .productContent h4 {
 	font-size: 30px;
+	font-weight: 400;
+}
+.productContent p{
+	color: rgb(159, 159, 159);
+font-weight: 400;
+padding-top: 6px;
 }
 
 .products {
@@ -127,18 +162,18 @@ img {
 }
 .textForProduct p {
 	color: rgb(93, 93, 93);
-	font-size: 14px;
 	font-weight: 300;
 	padding-top: 13px;
 }
 
-.prodbtn{
-    background: none;
-    border: 1px solid rgb(255, 106, 106);
-    margin-top: 48px;
-    margin-bottom: 60px;
-    color: rgb(242, 99, 118);
-font-size: 16px;
-font-weight: 400;
-padding: 15px 39px;
+.prodbtn {
+	background: none;
+	border: 1px solid rgb(255, 106, 106);
+	background: rgb(241, 109, 127);
+	margin-top: 48px;
+	margin-bottom: 60px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 15px 39px;
 }

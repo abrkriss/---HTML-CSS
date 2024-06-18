@@ -256,15 +256,29 @@ body p {
 	.mainContent__rigthSide h2{
 		font-size: 20px;
 	}
-	.rigthSideOfNavInHeader
+	.leftSideOfNavInHeader{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 41px;
+		align-items: center;
+		margin-top: 18px;
+		margin-bottom: 19px;
+	}
+	.rigthSideOfNavInHeader{
+		display: grid;
+		gap: 33px;
+		align-items: center;
+		margin-top: 26px;
+		margin-bottom: 20px;
+		grid-template-columns: revert;
+		margin-right: 16px;
+	}
 	.itemInHeader5, .itemInHeader4{
 		display: none;
 	}
-	.rigthSideOfNavInHeader{
-		display: flex;
-	}
 	.navigationInHeader {
-    display: grid;
-    grid-template-columns: 40% 60%;
+		display: grid;
+		grid-template-columns: 40% 60%;
+		justify-items: end;
 }
 }

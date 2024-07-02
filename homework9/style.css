@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.header {
+	height: 75px;
+	background: rgb(34, 34, 34);
+}
+.navigationInHeader {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	margin: 0 auto;
+}
+
+.leftSideOfNavInHeader {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 41px;
+	align-items: center;
+	margin-top: 18px;
+	margin-bottom: 19px;
+}
+.rigthSideOfNavInHeader {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 33px;
+	align-items: center;
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+
+body {
+	scroll-behavior: smooth;
+	font-family: "Lato";
+	background: rgb(248, 248, 248);
+}
+body p {
+	font-style: 14px;
+}
+
+.mainContent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background: rgb(241, 228, 230);
+}
+
+.textColorful {
+	color: rgb(241, 109, 127);
+}
+.mainContent__rigthSide {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.mainContent__rigthSide h1 {
+	font-size: 48px;
+}
+.mainContent__rigthSide h2 {
+	font-size: 32px;
+}
+.textMain {
+	padding-left: 16px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.picmenu h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+}
+.pictureMenu {
+	margin-top: 35px;
+}
+
+.picmenu {
+	position: relative;
+}
+.picmenu h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.pickMenuTextColor {
+	font-size: 24px;
+	font-weight: 700;
+	color: rgb(241, 109, 127);
+}
+.blokForThree {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.blokForOne {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-top: 30px;
+}
+.productContent {
+	padding-top: 96px;
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+	justify-items: center;
+}
+.productContent h4 {
+	font-size: 30px;
+	font-weight: 400;
+}
+.productContent p {
+	color: rgb(159, 159, 159);
+	font-weight: 400;
+	padding-top: 6px;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(3, 360px);
+	gap: 30px;
+	padding-top: 48px;
+}
+.product {
+	height: 581px;
+}
+.product img {
+	max-height: 420px;
+}
+.picback {
+	width: 360px;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: rgb(247, 228, 226);
+}
+.product2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.textForProduct {
+	background: #f8f8f8;
+	padding: 24px 28px 20px 16px;
+}
+.textForProduct h5 {
+	font-size: 13px;
+	font-weight: 400;
+}
+.textForProduct h6 {
+	color: rgb(241, 109, 127);
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 18px;
+}
+.textForProduct p {
+	color: rgb(93, 93, 93);
+	font-weight: 300;
+	padding-top: 13px;
+}
+
+.prodbtn {
+	background: none;
+	border: 1px solid rgb(255, 106, 106);
+	background: rgb(241, 109, 127);
+	margin-top: 48px;
+	margin-bottom: 60px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 15px 39px;
+}
+.infoBlokBottom {
+	color: rgb(251, 251, 251);
+	background-color: rgb(34, 34, 36);
+}
+.infoBlok{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.infoBlok h3{
+	padding-top: 20px;
+	padding-bottom: 16px;
+}
+.infoBlok p{
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+}
+.navInfoBlok{
+	padding-top: 103px;
+	padding-bottom: 103px;
+	display: grid;
+	grid-template-columns: repeat(3, 360px);
+	gap: 30px;
+}
+.Subscribe{
+	background-size: cover;
+	background-image: url(./img/backgrSubs.png);
+	background-color: rgba(244, 244, 244, 0.7);
+  background-blend-mode: overlay;
+}
+.subNavig{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+    align-items: center;
+}
+
+.subscribeInfo{
+	padding-top: 97px;
+	padding-bottom: 127px;
+	display: flex;
+	font-style: italic;
+	text-align: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 29.27px;
+}
+.SubBtn h3{
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 39px;
+	line-height: 167.2%;
+}
+.boldSubText{
+	font-size: 24px;
+font-weight: 700;
+}
+.emailForm{
+border: 1px solid rgb(0, 0, 0);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(225, 225, 225);
+color: rgb(34, 34, 36);
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.container {
+		max-width: 736px;
+	}
+	.navigationInHeader {
+		display: grid;
+		justify-items: start;
+		gap: 424px;
+		margin: 0 32px;
+	}
+
+	.blokForThree {
+		gap: 19px;
+	}
+	.blokForOne {
+		padding-top: 19px;
+	}
+	.products {
+		display: grid;
+		grid-template-columns: repeat(2, 360px);
+		gap: 14px;
+		padding-top: 73px;
+	}
+	.prodbtn {
+		margin-top: 32.48px;
+		margin-bottom: 70.52px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.container {
+		max-width: 343px;
+	}
+	.blokForThree {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+		grid-row-gap: 32px;
+	}
+	.blokForOne img {
+		min-height: 111px;
+	}
+	.products {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(5, 1fr);
+		grid-row-gap: 16px;
+	}
+	.mainContent__leftSide {
+		display: none;
+	}
+	.mainContent {
+		display: flex;
+	}
+	.mainContent__rigthSide {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 148px;
+		margin-bottom: 148px;
+	}
+	.mainContent__rigthSide h1 {
+		font-size: 38px;
+	}
+	.mainContent__rigthSide h2 {
+		font-size: 20px;
+	}
+	.leftSideOfNavInHeader {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 41px;
+		align-items: center;
+		margin-top: 18px;
+		margin-bottom: 19px;
+	}
+	.rigthSideOfNavInHeader {
+		display: grid;
+		gap: 33px;
+		align-items: center;
+		margin-top: 26px;
+		margin-bottom: 20px;
+		grid-template-columns: revert;
+		margin-right: 16px;
+	}
+	.itemInHeader5,
+	.itemInHeader4 {
+		display: none;
+	}
+	.navigationInHeader {
+		display: grid;
+		grid-template-columns: 40% 60%;
+		justify-items: end;
+	}
+}
